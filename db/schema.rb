@@ -10,10 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_19_020524) do
+ActiveRecord::Schema.define(version: 2019_08_22_165457) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cart_items", force: :cascade do |t|
+    t.string "name"
+    t.string "price"
+    t.string "mini_price"
+    t.boolean "mini"
+    t.boolean "big"
+    t.string "image"
+    t.string "image1"
+    t.string "image2"
+    t.string "description"
+    t.string "carbs"
+    t.string "calories"
+    t.integer "amount"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "cupcake_id"
+  end
 
   create_table "cupcakes", force: :cascade do |t|
     t.string "name"

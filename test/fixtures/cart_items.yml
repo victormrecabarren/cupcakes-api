@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: MyString
+  mini_price: MyString
+  mini: false
+  big: false
+  image: MyString
+  image1: MyString
+  image2: MyString
+  description: MyString
+  carbs: MyString
+  calories: MyString
+  amount: 1
+
+two:
+  name: MyString
+  price: MyString
+  mini_price: MyString
+  mini: false
+  big: false
+  image: MyString
+  image1: MyString
+  image2: MyString
+  description: MyString
+  carbs: MyString
+  calories: MyString
+  amount: 1
