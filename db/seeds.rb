@@ -100,7 +100,7 @@ Cupcake.create([
     price: "$38.00",
     mini_price: "$17.00",
     image: "https://cupcakeshop.s3.amazonaws.com/biscoff-cupcakes-2_1280x1280%402x.jpg",
-    image1: "https://cupcakeshop.s3.amazonaws.com/biscoff-cupcakes-5_1280x1280%402x.jpg",
+    image1: "https://cupcakeshop.s3.amazonaws.com/Biscoff-Cupcake_1280x1280%402x.jpg",
     image2: "https://cupcakeshop.s3.amazonaws.com/biscoff-cupcakes-5_1280x1280%402x.jpg",
   },
   {
@@ -124,8 +124,8 @@ Cupcake.create([
     price: "$38.00",
     mini_price: "$17.00",
     image: "https://cupcakeshop.s3.amazonaws.com/Bourbon_Biscuit_Cupcake_NB_1_1280x1280%402x.jpg",
-    image1: "https://cupcakeshop.s3.amazonaws.com/Bourbon_Biscuit_Cupcake_NB_1_1280x1280%402x.jpg",
-    image2: "https://cupcakeshop.s3.amazonaws.com/Bourbon_Biscuit_Cupcake_NB_1_1280x1280%402x.jpg",
+    image1: "https://cupcakeshop.s3.amazonaws.com/Bourbon_Biscuit_Cupcake_nb_4_1280x1280%402x.jpg",
+    image2: "https://cupcakeshop.s3.amazonaws.com/Bourbon_Biscuit_Cupcake_nb_5_1280x1280%402x.jpg",
   },
   {
     name: "Ferrero Rocher",
@@ -208,9 +208,9 @@ Cupcake.create([
     description: "Callebaut Chocolate sponge. Salted caramel buttercream frosting. Caramel drizzle. Pretzels.",
     price: "$30.00",
     mini_price: "$15.00",
-    image: "https://cupcakeshop.s3.amazonaws.com/sprinkle-cupcakes-4_1280x1280%402x.jpg",
-    image1: "https://cupcakeshop.s3.amazonaws.com/sprinkle-cupcakes-4_1280x1280%402x.jpg",
-    image2: "https://cupcakeshop.s3.amazonaws.com/sprinkle-cupcakes-4_1280x1280%402x.jpg",
+    image: "https://cupcakeshop.s3.amazonaws.com/caramel-pretzel-cupcakes_1280x1280%402x.jpg",
+    image1: "https://cupcakeshop.s3.amazonaws.com/caramel-pretzel-cupcakes-4_1280x1280%402x.jpg",
+    image2: "https://cupcakeshop.s3.amazonaws.com/caramel-pretzel-cupcakes-5_1280x1280%402x.jpg",
   },
   {
     name: "Sprinkle",
@@ -232,7 +232,7 @@ Cupcake.create([
     description: "Chocolate sponge. Coconut Cream filling. Coconut buttercream. Chocolate Ganache drizzle. Dessicated Coconut.",
     price: "$38.00",
     mini_price: "$15.00",
-    image: "https://cupcakeshop.s3.amazonaws.com/bounty-cupcakes-5_1280x1280%402x.jpg",
+    image: "https://cupcakeshop.s3.amazonaws.com/bounty-cupcakes_1280x1280%402x.jpg",
     image1: "https://cupcakeshop.s3.amazonaws.com/bounty-cupcakes-4_1280x1280%402x.jpg",
     image2: "https://cupcakeshop.s3.amazonaws.com/bounty-cupcakes-5_1280x1280%402x.jpg",
   },
@@ -438,7 +438,7 @@ Cupcake.create([
     mini_price: "$20.00",
     image: "https://cupcakeshop.s3.amazonaws.com/190326-crumbsanddoilies16154_1280x1280%402x.jpg",
     image1: "https://cupcakeshop.s3.amazonaws.com/190326-crumbsanddoilies16157_1280x1280%402x.jpg",
-    image2: "https://cupcakeshop.s3.amazonaws.com/190326-crumbsanddoilies16177_1280x1280%402x.jpg",
+    image2: "https://cupcakeshop.s3.amazonaws.com/190326-crumbsanddoilies16177_1280x1280%402x.jpghttps://cupcakeshop.s3.amazonaws.com/Biscoff-Cupcake_1280x1280%402x.jpg",
   },
 
   ])

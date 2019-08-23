@@ -15,6 +15,7 @@ class CartItemsController < ApplicationController
 
   # POST /cart_items
   def create
+    puts "here are the params: #{params}"
     @cart_item = CartItem.new(cart_item_params)
 
     if @cart_item.save
@@ -27,7 +28,7 @@ class CartItemsController < ApplicationController
   # PATCH/PUT /cart_items/1
   def update
     if @cart_item.update(cart_item_params)
-      render json: @cart_item
+      render json: CartItem.all
     else
       render json: @cart_item.errors, status: :unprocessable_entity
     end
