@@ -37,6 +37,7 @@ class CartItemsController < ApplicationController
   # DELETE /cart_items/1
   def destroy
     @cart_item.destroy
+    render json: CartItem.all
   end
 
   private
